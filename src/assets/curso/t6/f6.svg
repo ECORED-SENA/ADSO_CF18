@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="315" height="197" viewBox="0 0 315 197">
+  <g id="Grupo_141347" data-name="Grupo 141347" transform="translate(-1020 -1158)">
+    <g id="Grupo_141282" data-name="Grupo 141282" transform="translate(20)">
+      <g id="Grupo_141273" data-name="Grupo 141273" transform="translate(1098.731 1169.284)">
+        <rect id="Rectángulo_36546" data-name="Rectángulo 36546" width="129.394" height="129.394" transform="translate(0 40.887)" fill="#305399"/>
+        <path id="Trazado_118187" data-name="Trazado 118187" d="M36.37,0,0,40.887H129.394L165.764,0Z" transform="translate(0 0)" fill="#3c66aa"/>
+        <path id="Trazado_118188" data-name="Trazado 118188" d="M162.2,0l-36.37,40.887V170.28l36.37-40.887Z" transform="translate(3.563 0)" fill="#284b84"/>
+      </g>
+      <rect id="Rectángulo_36564" data-name="Rectángulo 36564" width="315" height="197" transform="translate(1000 1158)" fill="none"/>
+    </g>
+    <text id="Nodo" transform="translate(1158 1259)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Nodo</tspan></text>
+  </g>
+</svg>

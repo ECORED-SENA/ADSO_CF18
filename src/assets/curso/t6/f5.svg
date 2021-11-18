@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="648" height="491" viewBox="0 0 648 491">
+  <defs>
+    <filter id="Rectángulo_36536" x="0" y="0" width="648" height="491" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_36537" data-name="Rectángulo 36537" width="429.365" height="402.694" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_141346" data-name="Grupo 141346" transform="translate(-8342 10723)">
+    <g transform="matrix(1, 0, 0, 1, 8342, -10723)" filter="url(#Rectángulo_36536)">
+      <rect id="Rectángulo_36536-2" data-name="Rectángulo 36536" width="630" height="473" rx="35" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Grupo_141264" data-name="Grupo 141264" transform="translate(8454.709 -10681.848)">
+      <g id="Grupo_141263" data-name="Grupo 141263" clip-path="url(#clip-path)">
+        <path id="Trazado_118180" data-name="Trazado 118180" d="M201.336,201.325V0C90.145,0,0,90.145,0,201.325,0,312.538,90.145,402.694,201.336,402.694c39.147,0,70.158-8.626,103.692-28.78Z" fill="#16325c"/>
+        <path id="Trazado_118181" data-name="Trazado 118181" d="M20.379,201.325,95.8,14.652A199.232,199.232,0,0,0,20.379,0Z" transform="translate(207.036)" fill="#004a80"/>
+        <path id="Trazado_118182" data-name="Trazado 118182" d="M20.379,187.986,157.694,40.739C138.578,22.929,120.032,11.1,95.8,1.313Z" transform="translate(207.036 13.339)" fill="#5888a5"/>
+        <path id="Trazado_118183" data-name="Trazado 118183" d="M20.379,152.093,213.915,207.6c21.616-75.348,1.1-149.278-56.221-202.753Z" transform="translate(207.036 49.232)" fill="#6ccff6"/>
+        <path id="Trazado_118184" data-name="Trazado 118184" d="M20.379,18.041l103.692,172.59c44.816-26.905,75.448-66.844,89.844-117.083Z" transform="translate(207.036 183.284)" fill="#0095d9"/>
+      </g>
+    </g>
+  </g>
+</svg>

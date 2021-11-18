@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="102" viewBox="0 0 295 102">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_36272" data-name="Rectángulo 36272" width="53.513" height="49" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_141322" data-name="Grupo 141322" transform="translate(-338 -880)">
+    <g id="Grupo_80064" data-name="Grupo 80064" transform="translate(158)">
+      <rect id="Rectángulo_36015" data-name="Rectángulo 36015" width="295" height="102" rx="27" transform="translate(180 880)" fill="#4dd0e1"/>
+    </g>
+    <text id="Estrategia" transform="translate(466 938)" fill="#fff" font-size="24" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Estrategia</tspan></text>
+    <circle id="Elipse_4790" data-name="Elipse 4790" cx="42" cy="42" r="42" transform="translate(359 888)" fill="#1565c0"/>
+    <g id="Grupo_87761" data-name="Grupo 87761" transform="translate(372.487 905.5)">
+      <g id="Grupo_87760" data-name="Grupo 87760" clip-path="url(#clip-path)">
+        <path id="Trazado_117027" data-name="Trazado 117027" d="M51.961,32.875H18.825a5.887,5.887,0,0,1-5.88-5.881V5.88A5.887,5.887,0,0,1,18.825,0H51.961a5.887,5.887,0,0,1,5.881,5.88V26.995a5.887,5.887,0,0,1-5.881,5.881M18.825,1.644A4.241,4.241,0,0,0,14.589,5.88V26.995a4.241,4.241,0,0,0,4.236,4.236H51.961A4.241,4.241,0,0,0,56.2,26.995V5.88a4.241,4.241,0,0,0-4.236-4.236Z" transform="translate(-8.688)" fill="#fff"/>
+        <path id="Trazado_117028" data-name="Trazado 117028" d="M49.554,139.22H4.006a3.976,3.976,0,0,1-3.972-3.972.822.822,0,0,1,1.644,0,2.33,2.33,0,0,0,2.327,2.327H49.554a2.33,2.33,0,0,0,2.327-2.327.822.822,0,0,1,1.644,0,3.976,3.976,0,0,1-3.972,3.972" transform="translate(-0.023 -90.22)" fill="#fff"/>
+        <path id="Trazado_117029" data-name="Trazado 117029" d="M47.383,111.849h-.049L6,111.717c-1.115,0-4.826-.14-5.778-1.753a1.508,1.508,0,0,1-.014-1.543L4.816,100c.884-1.615,4.067-2.486,6.614-2.486H43.2c2.571,0,5.7.9,6.433,2.579l3.741,8.539a1.532,1.532,0,0,1-.129,1.5c-1.041,1.587-4.687,1.72-5.863,1.72m-.044-1.644c2.933.015,4.3-.667,4.514-.95l-3.726-8.5c-.285-.65-2.346-1.595-4.927-1.595H11.429c-2.651,0-4.8.95-5.171,1.631l-4.59,8.386c.248.279,1.543.89,4.335.9Z" transform="translate(0 -65.445)" fill="#fff"/>
+        <path id="Trazado_117030" data-name="Trazado 117030" d="M69.3,34.6l-5.052.678a.369.369,0,0,0-.243.592l1.049,1.36-6.172,4.72a.35.35,0,0,1-.494-.069l-2.1-2.825A.35.35,0,0,0,55.786,39l-7.855,6.644a.81.81,0,0,0,1.046,1.237l6.537-5.529a.35.35,0,0,1,.507.059l2.046,2.758a.349.349,0,0,0,.493.069l7.482-5.722,1.075,1.393a.369.369,0,0,0,.634-.085l1.939-4.713A.369.369,0,0,0,69.3,34.6" transform="translate(-31.977 -23.221)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

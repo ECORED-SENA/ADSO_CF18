@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1071" height="496" viewBox="0 0 1071 496">
+  <g id="Grupo_141334" data-name="Grupo 141334" transform="translate(-285 -2326)">
+    <g id="Grupo_141303" data-name="Grupo 141303" transform="translate(0 -54)">
+      <rect id="Rectángulo_36639" data-name="Rectángulo 36639" width="190" height="95" rx="47.5" transform="translate(285 2495)" fill="#1565c0"/>
+      <rect id="Rectángulo_36647" data-name="Rectángulo 36647" width="190" height="60" transform="translate(1125 2738)" fill="#4dd0e1"/>
+      <rect id="Rectángulo_36646" data-name="Rectángulo 36646" width="190" height="78" transform="translate(1125 2798)" fill="#ccf3f8"/>
+      <text id="Cliente" transform="translate(348 2531)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Cliente</tspan></text>
+      <text id="Subsistema_3" data-name="Subsistema 3" transform="translate(1168 2756)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Subsistema 3</tspan></text>
+      <path id="Trazado_118357" data-name="Trazado 118357" d="M349-9157.5H500.366v87.851H877.209v-193.833h134.845" transform="translate(126 11700)" fill="none" stroke="#1b9ce2" stroke-width="2"/>
+      <rect id="Rectángulo_36640" data-name="Rectángulo 36640" width="190" height="156" transform="translate(705 2543)" fill="#ccf3f8"/>
+      <rect id="Rectángulo_36641" data-name="Rectángulo 36641" width="190" height="95" transform="translate(705 2432)" fill="#4dd0e1"/>
+      <text id="Fachada" transform="translate(762 2468)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Fachada</tspan></text>
+      <text id="Operación_1_Operación_2_Operación_3_" data-name="Operación 1()
+ Operación 2()
+ Operación 3()
+" transform="translate(736 2587)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Operación 1()</tspan><tspan x="0" y="44" xml:space="preserve"> Operación 2()</tspan><tspan x="0" y="69" xml:space="preserve"> Operación 3()</tspan><tspan font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="94"></tspan></tspan></text>
+      <rect id="Rectángulo_36642" data-name="Rectángulo 36642" width="190" height="60" transform="translate(1125 2380)" fill="#4dd0e1"/>
+      <rect id="Rectángulo_36643" data-name="Rectángulo 36643" width="190" height="78" transform="translate(1125 2440)" fill="#ccf3f8"/>
+      <text id="Subsistema_1" data-name="Subsistema 1" transform="translate(1158 2399)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Subsistema 1</tspan></text>
+      <path id="Trazado_118358" data-name="Trazado 118358" d="M995.076-8880.542H873.138v-191.126" transform="translate(129.924 11700)" fill="none" stroke="#1b9ce2" stroke-width="2"/>
+      <line id="Línea_150" data-name="Línea 150" x2="130" transform="translate(1003.5 2630.5)" fill="none" stroke="#1b9ce2" stroke-width="2"/>
+      <rect id="Rectángulo_36645" data-name="Rectángulo 36645" width="190" height="60" transform="translate(1125 2560)" fill="#4dd0e1"/>
+      <rect id="Rectángulo_36644" data-name="Rectángulo 36644" width="190" height="78" transform="translate(1125 2620)" fill="#ccf3f8"/>
+      <text id="Subsistema_2" data-name="Subsistema 2" transform="translate(1158 2574)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Subsistema 2</tspan></text>
+      <path id="Polígono_27" data-name="Polígono 27" d="M5.5,0,11,10H0Z" transform="translate(895 2635.851) rotate(-90)" fill="#039be5"/>
+      <path id="Polígono_28" data-name="Polígono 28" d="M5.5,0,11,10H0Z" transform="translate(475 2548) rotate(-90)" fill="#039be5"/>
+    </g>
+  </g>
+</svg>
