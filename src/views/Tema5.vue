@@ -8,7 +8,7 @@
         span.text-white 5
       h1 Vistas estáticas
 
-    .row.align-items-center
+    .row
       .col-lg-6(data-aos='fade-right')
         figure
           img(src='@/assets/curso/t5/f1.jpg' alt='imagen relacionada')

@@ -8,17 +8,18 @@
         span.text-white 6
       h1 Diagrama de despliegue
 
-    .contenedor.fcp20.py-5
+    .contenedor.fcp20.pt-5.mb-5
       .row
         .col-lg-6
           p Los diagramas de despliegue hacen parte de los tipos de diagrama propuestos por UML y su objetivo es la representación de la arquitectura del sistema en términos de hardware y software físico y los medios por los cuales se conectan. Este tipo de diagrama es muy útil para el proceso de despliegue del sistema.
           .cajon.color-acento-contenido.p-4
             p.mb-0 Los diagramas de despliegue utilizan un conjunto de elementos gráficos que tienen una representación y significado estandarizado. A continuación, se detalla cada uno de ellos:
         .col-lg-6(data-aos='fade-left')
-          SlyderC.mb-5(:datos="datosSlyder")
+          SlyderC(:datos="datosSlyder")
 
+    p A continuación, se detalla cada uno de ellos:
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.tarjeta--azul.p-4(titulo="Nodos")
+      .tarjeta.tarjeta--gris.p-4(titulo="Nodos")
         .row.align-items-center
           .col-lg-8
             h4 Nodos
@@ -26,7 +27,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/t6/f6.svg')
-      .tarjeta.tarjeta--azul.p-4(titulo="Artefactos")
+      .tarjeta.tarjeta--gris.p-4(titulo="Artefactos")
         .row.align-items-center
           .col-lg-8
             h4 Artefactos
@@ -34,7 +35,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/t6/f7.svg')
-      .tarjeta.tarjeta--azul.p-4(titulo="Asociación de comunicación")
+      .tarjeta.tarjeta--gris.p-4(titulo="Asociación de comunicación")
         .row.align-items-center
           .col-lg-8
             h4 Asociación de comunicación
@@ -42,7 +43,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/t6/f8.svg')
-      .tarjeta.tarjeta--azul.p-4(titulo="Dispositivos")
+      .tarjeta.tarjeta--gris.p-4(titulo="Dispositivos")
         .row.align-items-center
           .col-lg-7
             h4 Dispositivos
@@ -50,7 +51,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/t6/f9.svg')
-      .tarjeta.tarjeta--azul.p-4(titulo="Especificaciones de despliegue")
+      .tarjeta.tarjeta--gris.p-4(titulo="Especificaciones de despliegue")
         .row.align-items-center
           .col-lg-6
             h4 Especificaciones de despliegue

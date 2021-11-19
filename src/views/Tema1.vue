@@ -57,7 +57,7 @@
           .floatRight
             h6.texto-blanco EcuRed (2021). 
               i.fas.fa-square.cac
-            .p-3
+          .p-3
 
 </template>
 

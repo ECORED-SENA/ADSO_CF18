@@ -1,6 +1,42 @@
 //colores
+$cp20: #EBF4FD
+$cp30: #D2EDEA
+$cac20: #FAE8B2
+
+.cp
+  color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+
+.cac
+  color: $color-acento-contenido !important
+
+i.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
 
 //backgrounds
+.fblanco
+  background-color: white
+
+.fcp20
+  background-color: $cp20
+
+.fcp30
+  background-color: $cp30
+
+.fcp
+  background-color: $color-primario !important
+
+.fcac20
+  background-color: $cac20
+
+
+.cajon.color-acento-contenido
+  background-color: #FCEAB3 !important
 
 //otros
 .pRelative
@@ -14,3 +50,47 @@
 
 .floatRight
   float: right
+
+.contenedor
+  padding-left: 3rem
+  padding-right: 3rem
+  margin-left: -3rem
+  margin-right: -3rem
+
+.boxShadow
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5)
+
+.horizontal-scroll
+  &__wrapper
+    padding: 10px
+
+.clear
+  clear: both
+
+.border12
+  border-radius: 1rem 1rem 0 0
+
+.traslapeTop
+  margin-top: -6rem
+
+.code
+  background-color: #12263F
+  padding: 1rem
+  code
+    color: $color-acento-botones !important
+
+@media screen and ( min-width: 992px )
+  .h430px
+    min-height: 430px
+  
+
+@media screen and ( max-width: 991px )
+  figure
+    img
+      max-width: 350px
+      margin: 1rem auto
+
+  .col-lg-4.tarjeta.tarjeta--blanca.mx-2.mb-5
+    max-width: 350px
+    
+  

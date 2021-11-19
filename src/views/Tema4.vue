@@ -10,25 +10,28 @@
 
     p Los patrones estructurales proveen una orientación relacionada a la forma de definir los componentes de los objetos. Dentro de los patrones estructurales se encuentran:
 
-    img(src='@/assets/curso/t4/f1.jpg' alt='imagen relacionada' data-aos='flip-up')
-    #Patrones.row.justify-content-center.p-5.fcp
-      .col-lg-4.tarjeta.tarjeta--blanca(data-aos='fade-right')
-        a(href='/#Fachada')
+    #Patrones.row.justify-content-center.fcp.mb-5.p-0
+      img(src='@/assets/curso/t4/f1.jpg' alt='imagen relacionada' data-aos='flip-up').mb-5
+      .col-lg-4.tarjeta.tarjeta--blanca.mx-2.mb-5(data-aos='fade-right')
+        a.indicador__container(@click="goToElement('Fachada')" @mouseover="mostrarIndicador = false")
           .p-4.text-center
             p 
-              b El patrón Fachada: utilizado cuando el sistema está compuesto por varios subsistemas.
-              | 
-      .col-lg-4.tarjeta.tarjeta--blanca(data-aos='fade-right')
-        a(href='/#Delegate')
+              b El patrón Fachada: 
+              | utilizado cuando el sistema está compuesto por varios subsistemas.
+          .indicador--click(v-if="mostrarIndicador")
+      .col-lg-4.tarjeta.tarjeta--blanca.mx-2.mb-5(data-aos='fade-left')
+        a.indicador__container(@click="goToElement('Delegate')" @mouseover="mostrarIndicador = false")
           .p-4.text-center
             p 
-              b ●	El patrón Delegate: usado cuando se quiere reutilizar y extender funcionalidades de una clase, sin hacer uso de la herencia.
-              | 
+              b El patrón Delegate: 
+              | usado cuando se quiere reutilizar y extender funcionalidades de una clase, sin hacer uso de la herencia.
+          .indicador--click(v-if="mostrarIndicador")
    
     #Fachada.pRelative
       .backtoTop
-        a(href='/#Patrones')
+        a.indicador__container(@click="goToElement('Patrones')" @mouseover="mostrarIndicador = false")
           img(src='@/assets/curso/flechitaCAC.svg' alt='Volver arriba')
+          .indicador--click(v-if="mostrarIndicador")
       .row.mb-5
         .col-lg-6.mb-4
           h3 Fachada
@@ -36,30 +39,31 @@
           p Existen diferentes variaciones del patrón fachada:
           LineaTiempoD.color-primario
             div(numero='1' titulo='Opaco')
-              p ●	Opaco: una de las variaciones más utilizadas y en el cual los clientes no pueden acceder a los subsistemas sólo se puede hacer mediante el objeto fachada.
+              p Una de las variaciones más utilizadas y en el cual los clientes no pueden acceder a los subsistemas sólo se puede hacer mediante el objeto fachada.
             div(numero='2' titulo='Transparente')
-              p ●	Transparente: el cliente tiene la posibilidad de acceder a los subsistemas por medio de la fachada, pero también puede hacerlo de forma directa.
+              p El cliente tiene la posibilidad de acceder a los subsistemas por medio de la fachada, pero también puede hacerlo de forma directa.
             div(numero='3' titulo='Estática')
-              p ●	Estática: en esta variación la fachada se implementa como una clase estática por lo cual no se hace necesaria la instancia de un objeto concreto de la fachada. Landa. (2018)
+              p En esta variación la fachada se implementa como una clase estática por lo cual no se hace necesaria la instancia de un objeto concreto de la fachada. Landa. (2018)
         .col-lg-6.order-first.order-lg-last.mb-4
           figure
             img(src='@/assets/curso/t4/f2.svg' alt='imagen relacionada')
+      .row.mb-5
         .col-lg-6
           figure
             img(src='@/assets/curso/t4/f3.jpg')
         .col-lg-6
           p 
             b En este patrón se reconocen tres partes fundamentales Landa. (2018):
-          .p-5.fcac20
+          .p-4.fcac20
             p 
-              b ●	Fachada: clase que provee las operaciones de alto nivel que serán usadas por el cliente.
-              | 
+              b Fachada: 
+              | clase que provee las operaciones de alto nivel que serán usadas por el cliente.
             p 
-              b ●	Subsistemas: clases que proveen las funcionalidades que son expuestas por la fachada.
-              | 
-            p 
-              b ●	Cliente: hace uso de las operaciones de alto nivel por medio de la fachada.
-              | 
+              b Subsistemas: 
+              | clases que proveen las funcionalidades que son expuestas por la fachada.
+            p.mb-0 
+              b Cliente: 
+              | hace uso de las operaciones de alto nivel por medio de la fachada.
       p En la figura 1 se pueden ver cada uno de los componentes del patrón.
 
       .contenedor.bgDegradado.py-5.mb-5
@@ -96,7 +100,7 @@
           .code
             code public class Cliente {<br>&emsp; public static void main(String[] args) {<br>&emsp;&emsp; Fachada fachada = new Fachada();<br>&emsp;&emsp; // Se hace uso de las operaciones de alto nivel<br>&emsp;&emsp; fachada.compra();<br>&emsp;&emsp; fachada.compra();<br>&emsp;&emsp; fachada.compra();<br>&emsp; }<br> }
       
-      .col-lg-9.mx-auto.mb-5
+      .col-lg-10.mx-auto.mb-5
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -115,8 +119,9 @@
 
     #Delegate.pRelative
       .backtoTop
-        a(href='/#Patrones')
+        a.indicador__container(@click="goToElement('Patrones')" @mouseover="mostrarIndicador = false")
           img(src='@/assets/curso/flechitaCAC.svg' alt='Volver arriba')
+          .indicador--click(v-if="mostrarIndicador")
 
       .row.mb-5
         .col-lg-6
@@ -147,15 +152,15 @@
         div(titulo="En este caso la clase principal instancia la clase indicando por parámetro las clases concretas a ser utilizadas para la extensión de los métodos que serán reutilizados")
           .code
             code public class PatronDelegate {&emsp;&emsp;<br>public static void main(String[] args) {&emsp;&emsp;&emsp;&emsp;<br>Empleado objEmpleado = new Empleado(new ClaseCodificadora(),new ClaseDisenadora());&emsp;&emsp;&emsp;&emsp;<br>objEmpleado.codificar();&emsp;&emsp;&emsp;&emsp;<br>objEmpleado.disenar();&emsp;&emsp;<br>}<br>    <br>}
-      .row.justify-conten-center
+      .row.justify-content-center.mb-5
         .col-12
           figure
             img(src='@/assets/curso/t4/f7.jpg' alt='imagen relacionada')
-        .col-10
+        .col-10.traslapeTop
           .fcp20.p-5
             p.mb-0 Cualquier nueva clase concreta que implemente las interfaces originales podrá ser usada por la clase Empleado para su reutilización solo indicando en el parámetro del constructor la respectiva instancia que implementa la nueva lógica.
       
-      .col-lg-9.mx-auto.mb-5
+      .col-lg-10.mx-auto.mb-5
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -176,7 +181,7 @@
 export default {
   name: 'Tema4',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -185,6 +190,12 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    goToElement(id) {
+      const ele = document.getElementById(id)
+      window.scrollTo(ele.offsetLeft, ele.offsetTop + 100)
+    },
   },
 }
 </script>
