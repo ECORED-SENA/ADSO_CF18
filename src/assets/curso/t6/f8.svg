@@ -1,20 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="315" height="152.553" viewBox="0 0 315 152.553">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectángulo_36562" data-name="Rectángulo 36562" width="315" height="152.553" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Grupo_141349" data-name="Grupo 141349" transform="translate(-1020 -2027.38)">
-    <g id="Grupo_141280" data-name="Grupo 141280" transform="translate(1020 2027.38)">
-      <rect id="Rectángulo_36560" data-name="Rectángulo 36560" width="84.068" height="84.068" transform="translate(0 57.139)" fill="#305399"/>
-      <path id="Trazado_118212" data-name="Trazado 118212" d="M23.63,45.763,0,72.328H84.069L107.7,45.763Z" transform="translate(0 -15.189)" fill="#3c66aa"/>
-      <path id="Trazado_118213" data-name="Trazado 118213" d="M125.831,72.328V156.4l23.63-26.565V45.763Z" transform="translate(-41.762 -15.189)" fill="#284b84"/>
-      <path id="Trazado_118214" data-name="Trazado 118214" d="M218.634,130.28h-6.578v-2.252h6.578Zm-11.083,0H200.8v-2.252h6.757Zm-11.261,0h-6.757v-2.252h6.757Zm-11.26,0h-6.757v-2.252h6.757Zm-11.261,0h-6.757v-2.252h6.757Zm-11.26,0h-6.757v-2.252h6.757Zm-11.261,0h-6.757v-2.252h6.757Z" transform="translate(-47.956 -42.492)" fill="#7db5db"/>
-      <rect id="Rectángulo_36561" data-name="Rectángulo 36561" width="115.922" height="115.922" transform="translate(166.493 36.631)" fill="#587bc9"/>
-      <path id="Trazado_118215" data-name="Trazado 118215" d="M281.785,0,249.2,36.631H365.123L397.708,0Z" transform="translate(-82.708)" fill="#759bd3"/>
-      <path id="Trazado_118216" data-name="Trazado 118216" d="M455.294,0,422.71,36.631V152.553l32.584-36.63Z" transform="translate(-140.295)" fill="#4b71b5"/>
-    </g>
-    <text id="Nodo" transform="translate(1043 2116)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Nodo</tspan></text>
-    <text id="Nodo-2" data-name="Nodo" transform="translate(1221 2116)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Nodo</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 315 152.6" style="enable-background:new 0 0 315 152.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#305399;}
+	.st1{fill:#3C66AA;}
+	.st2{fill:#284B84;}
+	.st3{fill:#7DB5DB;}
+	.st4{fill:#587BC9;}
+	.st5{fill:#759BD3;}
+	.st6{fill:#4B71B5;}
+	.st7{fill:#FFFFFF;}
+	.st8{font-family:'SegoeUIBlack';}
+	.st9{font-size:18px;}
+</style>
+<g id="Grupo_141349" transform="translate(-1020 -2027.38)">
+	<g id="Grupo_141280" transform="translate(1020 2027.38)">
+		<rect id="Rectángulo_36560" y="57.1" class="st0" width="84.1" height="84.1"/>
+		<path id="Trazado_118212" class="st1" d="M23.6,30.6L0,57.1h84.1l23.6-26.6H23.6z"/>
+		<path id="Trazado_118213" class="st2" d="M84.1,57.1v84.1l23.6-26.6V30.6L84.1,57.1z"/>
+		<path id="Trazado_118214" class="st3" d="M166.5,87.8h-70v-2.3h70V87.8z"/>
+		<rect id="Rectángulo_36561" x="166.5" y="36.6" class="st4" width="115.9" height="115.9"/>
+		<path id="Trazado_118215" class="st5" d="M199.1,0l-32.6,36.6h115.9L315,0H199.1z"/>
+		<path id="Trazado_118216" class="st6" d="M315,0l-32.6,36.6v115.9l32.6-36.6V0z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 1043 2135)" class="st7 st8 st9">Nodo</text>
+	<text transform="matrix(1 0 0 1 1221 2135)" class="st7 st8 st9">Nodo</text>
+</g>
 </svg>

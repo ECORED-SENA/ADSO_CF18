@@ -19,9 +19,11 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .contenedor.fcp20.p-5.mb-5
-      h3 Síntesis
-      p Hasta este punto, el componente formativo ha favorecido la profundización en los aspectos y generalidades más importantes relativos al diseño de patrones de software. 
+    #t_7_1.contenedor.fcp20.p-5.mb-5
+      .titulo-segundo.color-acento-contenido
+        h2 Síntesis
+      p Hasta este punto, el componente formativo ha favorecido la profundización en los aspectos y generalidades más importantes relativos al diseño de patrones de 
+        em software. 
       p Para lograr una síntesis general y tener más y mejores herramientas conceptuales y de aplicación, explore el recurso que se sugiere a continuación:
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--blanca.boxShadow.p-4(style='min-height:470px')
@@ -29,7 +31,9 @@
             .col-8
               img(src='@/assets/curso/t7/f2.svg' alt='icono relacionado' data-aos='flip-down')
           h2.text-center Buenas prácticas
-          p.text-center Los patrones de diseño de software son de gran importancia para los desarrolladores; recogen un conjunto de buenas prácticas, abordadas por muchas personas en problemas reales y en contextos muy bien definidos.
+          p.text-center Los patrones de diseño de 
+            em software 
+            | son de gran importancia para los desarrolladores; recogen un conjunto de buenas prácticas, abordadas por muchas personas en problemas reales y en contextos muy bien definidos.
         .tarjeta.tarjeta--blanca.boxShadow.p-4(style='min-height:470px')
           .row.justify-content-center.mb-3
             .col-8

@@ -10,7 +10,9 @@
 
     .row.mb-5
       .col-lg-5
-        p Una de las labores comunes en el proceso de construcción de software es precisamente distribuir responsabilidades en un conjunto de módulos o clases, siguiendo los principios definidos en los paradigmas de programación, como por ejemplo la programación orientada a objetos. Sin embargo, al momento de dar solución a un requerimiento particular se requerirá instanciar objetos de diferentes tipos, los cuales bajo sus responsabilidades implementan algún tipo lógica.
+        p Una de las labores comunes en el proceso de construcción de 
+          em software 
+          | es precisamente distribuir responsabilidades en un conjunto de módulos o clases, siguiendo los principios definidos en los paradigmas de programación, como por ejemplo, la programación orientada a objetos. Sin embargo, al momento de dar solución a un requerimiento particular se requerirá instanciar objetos de diferentes tipos, los cuales bajo sus responsabilidades implementan algún tipo de lógica.
         p En el recurso que le presentamos a continuación, profundice en los aspectos más importantes de los patrones creacionales:
       .col-lg-7.order-first.order-lg-last(data-aos='fade-left')
         figure

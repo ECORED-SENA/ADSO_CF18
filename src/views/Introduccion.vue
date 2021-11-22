@@ -9,7 +9,9 @@
           i.fas.fa-info.text-white
       h1 Introducción
 
-    p.mb-5 Le damos la bienvenida al componente formativo “Diseño de patrones de software”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+    p.mb-5 Le damos la bienvenida al componente formativo “Diseño de patrones de 
+      em software
+      | ”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
     
     figure.mb-5
       .video

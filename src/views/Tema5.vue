@@ -15,7 +15,7 @@
       .col-lg-6
         p La vista estática está encargada de modelar los conceptos significativos del dominio de la aplicación desde sus propiedades internas y las relaciones existentes. Se denomina vista estática porque no modela el comportamiento del sistema ni muestra las variaciones que se puedan presentar por efecto del tiempo.
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 Los elementos fundamentales de la vista estática son las clases que describen los conceptos del dominio del problema y las relaciones que pueden ser de tipo Asociación, Generalización y de dependencia. Entre los diagramas de UML que se utilizan para representar la vista estática del sistema encontramos (ITCA, 2021):
+          p.mb-0 Los elementos fundamentales de la vista estática son las clases que describen los conceptos del dominio del problema y las relaciones que pueden ser de tipo asociación, generalización y de dependencia. Entre los diagramas de UML que se utilizan para representar la vista estática del sistema encontramos (ITCA, 2021):
 
         .row
           .col-4

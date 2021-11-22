@@ -11,7 +11,11 @@
     .contenedor.fcp20.pt-5.mb-5
       .row
         .col-lg-6
-          p Los diagramas de despliegue hacen parte de los tipos de diagrama propuestos por UML y su objetivo es la representación de la arquitectura del sistema en términos de hardware y software físico y los medios por los cuales se conectan. Este tipo de diagrama es muy útil para el proceso de despliegue del sistema.
+          p Los diagramas de despliegue hacen parte de los tipos de diagrama propuestos por UML y su objetivo es la representación de la arquitectura del sistema en términos de 
+            em hardware 
+            | y 
+            em software 
+            | físico y los medios por los cuales se conectan. Este tipo de diagrama es muy útil para el proceso de despliegue del sistema.
           .cajon.color-acento-contenido.p-4
             p.mb-0 Los diagramas de despliegue utilizan un conjunto de elementos gráficos que tienen una representación y significado estandarizado. A continuación, se detalla cada uno de ellos:
         .col-lg-6(data-aos='fade-left')
@@ -23,7 +27,11 @@
         .row.align-items-center
           .col-lg-8
             h4 Nodos
-            p Representa un elemento que puede ser hardware o software y se representa por un cubo.
+            p Representa un elemento que puede ser 
+              em hardware 
+              | o 
+              em software 
+              | y se representa por un cubo.
           .col-lg-4
             figure
               img(src='@/assets/curso/t6/f6.svg')
@@ -39,7 +47,7 @@
         .row.align-items-center
           .col-lg-8
             h4 Asociación de comunicación
-            p Representa el camino de comunicación entre los nodos y se representa por una línea continúa uniendo los nodos en cuestión.
+            p Representa el camino de comunicación entre los nodos y se representa por una línea continua uniendo los nodos en cuestión.
           .col-lg-4
             figure
               img(src='@/assets/curso/t6/f8.svg')

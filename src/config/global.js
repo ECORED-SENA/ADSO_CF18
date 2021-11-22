@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diseño de patrones de <em>software</em>',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz estará en capacidad de conceptualizar, interpretar y aplicar diseños de patrones de <em>software</em>. Así mismo, se afianzará en lo referente a patrones comportamentales, creacionales, estructurales, vistas estáticas, diagramas de despliegue y de componentes, todo ello en el marco general de análisis y desarrollo de <em>softwares</em>.',
+      'Con el estudio de este componente, el aprendiz estará en capacidad de conceptualizar, interpretar y aplicar diseños de patrones de <em>software</em>. Así mismo, se afianzará en lo referente a patrones comportamentales, creacionales, estructurales, vistas estáticas, diagramas de despliegue y de componentes, todo ello en el marco general de análisis y desarrollo de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-img.svg'),
     fondoBannerPrincipal: require('@/assets/curso/banner-bg.svg'),
   },
@@ -73,7 +73,14 @@ export default {
         numero: '7',
         titulo: 'Diagrama de componentes',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Síntesis',
+            hash: 't_7_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -113,13 +120,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Creately (2021, Enero 15). La Guía Fácil de los Diagramas de Despliegue UML. [Web log post]. Blogspot.',
+        'Creately (2021, enero 15). La Guía Fácil de los Diagramas de Despliegue UML. [<em>Web log post</em>]. Blogspot.',
       link:
         'https://creately.com/blog/es/diagramas/tutorial-de-diagrama-de-despliegue/',
     },
     {
       referencia:
-        'DiagramasUML (2013, Diciembre 8). ¿Qué es UML? ¿Qué diagramas componen UML? [Web log post]. Blogspot.',
+        'DiagramasUML (2013, diciembre 8). Diagrama de componentes [<em>Web log post</em>]. Blogspot.',
       link: 'https://diagramasuml.com/componentes/ ',
     },
     {
@@ -134,11 +141,11 @@ export default {
     },
     {
       referencia:
-        'Gamma, E., Helm, R., Johnson, R., Vlissides, J., & Booch, G. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional.',
+        'Gamma, E., Helm, R., Johnson, R., Vlissides, J., & Booch, G. (1994). <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Addison-Wesley <em>Professional</em>.',
     },
     {
       referencia:
-        'Landa, N. (2018). Patrones de Diseño de Software [Video]. YouTube.',
+        'Landa, N. (2018). Patrones de Diseño de <em>Software</em> [Video]. YouTube.',
       link:
         'https://www.youtube.com/playlist?list=PLM-p96nOrGcbqbL_A29b0z3KUXdq2_fpn ',
     },
@@ -147,7 +154,7 @@ export default {
     {
       termino: 'Patrones GOF',
       significado:
-        'Los patrones GOF, se trata de los patrones de diseño y se denominan de esa manera por el libro Desing Patterns elements of reusable software, de cuatro autores que descubrieron la manera fundamental de adentrarse en el mundo de la programación. GOF es la sigla de “<em>The Gang of four</em>”, que significa La pandilla de los cuatro.',
+        'Los patrones GOF, se trata de los patrones de diseño y se denominan de esa manera por el libro <em>Desing patterns elements of reusable software</em>, de cuatro autores que descubrieron la manera fundamental de adentrarse en el mundo de la programación. GOF es la sigla de “<em>The Gang of four</em>”, que significa la pandilla de los cuatro.',
     },
     {
       termino: '<em>Software</em>',
@@ -163,21 +170,21 @@ export default {
   complementario: [
     {
       texto:
-        'Leiva, A. (2020). Patrones de diseño software: Repaso completo en 10 minutos.',
+        'Leiva, A. (2020). Patrones de diseño <em>software</em>: Repaso completo en 10 minutos. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'ttps://youtu.be/6BHOeDL8vls',
+      link: 'https://youtu.be/6BHOeDL8vls',
     },
     {
       texto:
-        'Nicosiored. (2018). Diagrama de Despliegue - 22 - Tutorial UML en español.',
+        'Nicosiored. (2018). Diagrama de Despliegue - 22 - Tutorial UML en español. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/NSB0ATJUavA',
     },
     {
       texto:
-        'Nicosiored. (2018). Diagrama de Componentes I - 20- Tutorial UML en español.',
+        'Nicosiored. (2018). Diagrama de Componentes I - 20- Tutorial UML en español. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'ttps://youtu.be/oOycG_n1ARs',
+      link: 'https://youtu.be/oOycG_n1ARs',
     },
   ],
   creditos: {
@@ -193,7 +200,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jonathan Guerrero Astaiza',
@@ -216,7 +223,7 @@ export default {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
         cargo: 'Revisión y corrección de estilo',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -224,49 +231,90 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Sandra Carolina Durán López',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      /*{
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Adriana Marcela Suárez Eljure',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Arnulfo Beltrán Mojica',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },*/
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
