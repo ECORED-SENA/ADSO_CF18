@@ -9,7 +9,7 @@
       h1 Diagrama de despliegue
 
     .contenedor.fcp20.pt-5.mb-5
-      .row
+      .row.justify-content-around
         .col-lg-6
           p Los diagramas de despliegue hacen parte de los tipos de diagrama propuestos por UML y su objetivo es la representación de la arquitectura del sistema en términos de 
             em hardware 
@@ -18,8 +18,9 @@
             | físico y los medios por los cuales se conectan. Este tipo de diagrama es muy útil para el proceso de despliegue del sistema.
           .cajon.color-acento-contenido.p-4
             p.mb-0 Los diagramas de despliegue utilizan un conjunto de elementos gráficos que tienen una representación y significado estandarizado. A continuación, se detalla cada uno de ellos:
-        .col-lg-6(data-aos='fade-left')
-          SlyderC(:datos="datosSlyder")
+        .col-lg-4(data-aos='fade-left')
+          figure
+            img(src='@/assets/curso/t6-gif1.gif')
 
     p A continuación, se detalla cada uno de ellos:
     TabsA.color-acento-contenido.mb-5
@@ -73,40 +74,7 @@
 <script>
 export default {
   name: 'Tema6',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/t6/f1.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/t6/f2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/t6/f3.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/t6/f4.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto: '',
-        imagen: require('@/assets/curso/t6/f5.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

@@ -10,11 +10,11 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Visite el material complementario para profundizar en la temática
+          h2 Repaso de características representativas en patrones de diseño
         p.mb-4 Afianzar las características más importantes de algunos patrones de diseño de 
           em software.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-around.align-items-center            
+          .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar el nombre del patrón de diseño con la característica que lo identifica.
             .col-auto

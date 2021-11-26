@@ -76,7 +76,7 @@ export default {
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '7.1',
+            numero: '',
             titulo: 'Síntesis',
             hash: 't_7_1',
           },
@@ -120,22 +120,22 @@ export default {
   referencias: [
     {
       referencia:
-        'Creately (2021, enero 15). La Guía Fácil de los Diagramas de Despliegue UML. [<em>Web log post</em>]. Blogspot.',
+        'Creately (2021, enero 15). La Guía Fácil de los Diagramas de Despliegue UML. [<em>Web log post</em>]. Blogspot. ',
       link:
         'https://creately.com/blog/es/diagramas/tutorial-de-diagrama-de-despliegue/',
     },
     {
       referencia:
-        'DiagramasUML (2013, diciembre 8). Diagrama de componentes [<em>Web log post</em>]. Blogspot.',
+        'DiagramasUML (2013, diciembre 8). Diagrama de componentes [<em>Web log post</em>]. Blogspot. ',
       link: 'https://diagramasuml.com/componentes/ ',
     },
     {
-      referencia: 'EcuRed (2021). Patrones Gof. ECURED.',
+      referencia: 'EcuRed (2021). Patrones Gof. ECURED. ',
       link: 'https://www.ecured.cu/Patrones_Gof',
     },
     {
       referencia:
-        'Escuela especializada en ingeniería (2021). Diagramas UML estáticos. ITCA-FEPADE.',
+        'Escuela especializada en ingeniería (2021). Diagramas UML estáticos. ITCA-FEPADE. ',
       link:
         'https://virtual.itca.edu.sv/Mediadores/ads/222_diagramas_uml_estticos.html ',
     },
@@ -145,7 +145,7 @@ export default {
     },
     {
       referencia:
-        'Landa, N. (2018). Patrones de Diseño de <em>Software</em> [Video]. YouTube.',
+        'Landa, N. (2018). Patrones de Diseño de <em>Software</em> [Video]. YouTube. ',
       link:
         'https://www.youtube.com/playlist?list=PLM-p96nOrGcbqbL_A29b0z3KUXdq2_fpn ',
     },
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'UML',
       significado:
-        'Lenguaje unificado de modelado. Relaciona un conjunto de diagramas estandarizados para la representación de sistemas de información desde diferentes tipos de vista.',
+        'Lenguaje Unificado de Modelado. Relaciona un conjunto de diagramas estandarizados para la representación de sistemas de información desde diferentes tipos de vista.',
     },
   ],
   complementario: [
@@ -206,12 +206,12 @@ export default {
         nombre: 'Jonathan Guerrero Astaiza',
         cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',

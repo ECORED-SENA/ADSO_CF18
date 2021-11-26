@@ -40,11 +40,11 @@
           p Existen diferentes variaciones del patrón fachada:
           LineaTiempoD.color-primario
             div(numero='1' titulo='Opaco')
-              p Una de las variaciones más utilizadas y en la cual los clientes no pueden acceder a los subsistemas solo se puede hacer mediante el objeto fachada.
+              p Una de las variaciones más utilizadas y en la cual los clientes no pueden acceder a los subsistemas, solo se puede hacer mediante el objeto fachada.
             div(numero='2' titulo='Transparente')
               p El cliente tiene la posibilidad de acceder a los subsistemas por medio de la fachada, pero también puede hacerlo de forma directa.
             div(numero='3' titulo='Estática')
-              p En esta variación la fachada se implementa como una clase estática, por lo cual, no se hace necesaria la instancia de un objeto concreto de la fachada. Landa. (2018).
+              p En esta variación la fachada se implementa como una clase estática, por lo cual, no se hace necesaria la instancia de un objeto concreto de la fachada. Landa, (2018).
         .col-lg-6.order-first.order-lg-last.mb-4
           figure
             img(src='@/assets/curso/t4/f2.svg' alt='imagen relacionada')
@@ -144,16 +144,60 @@
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
         div(titulo="En primer lugar se crean las interfaces que definen el comportamiento a ser reutilizado")
           .code
-            code public interface IDisenadora {    <br>&emsp;&emsp;<br>void disenar();<br>}<br><br>public interface ICodificadora {&emsp;&emsp;<br>void codificar();  <br>}
+            code public interface IDisenadora {    <br>&emsp;&emsp;&emsp;&emsp; void disenar();<br>}<br>public interface ICodificadora {<br>&emsp;&emsp;&emsp;&emsp; void codificar();  <br>}
         div(titulo="Se crean clases concretas que implementen este funcionamiento definido en las interfaces")
           .code
-            code public class ClaseCodificadora implements ICodificadora{<br>&emsp;&emsp;<br>@Override&emsp;&emsp;<br>public void codificar() {&emsp;&emsp;&emsp;&emsp;<br>System.out.println("Codificación por la clase codificadora");&emsp;&emsp;<br>} <br>}<br><br>public class ClaseDisenadora implements IDisenadora{&emsp;&emsp;<br>@Override&emsp;&emsp;<br>public void disenar() {&emsp;&emsp;&emsp;&emsp;<br>System.out.println("Diseñado por clase Diseñadora");&emsp;&emsp;<br>}  <br>}
+            code public class ClaseCodificadora implements ICodificadora{<br>&emsp;&emsp;@Override<br>&emsp;&emsp;public void codificar() {<br>&emsp;&emsp;&emsp;&emsp;System.out.println("Codificación por la clase codificadora");<br>&emsp;&emsp;} <br>}<br>public class ClaseDisenadora implements IDisenadora{<br>&emsp;&emsp;@Override<br>&emsp;&emsp;public void disenar() {<br>&emsp;&emsp;&emsp;&emsp;System.out.println("Diseñado por clase Diseñadora");<br>&emsp;&emsp;}  <br>}
         div(titulo="Ahora se crea la clase que va a reutilizar las funcionalidades definidas en las interfaces")
           .code
-            code public class Empleado implements ICodificadora,IDisenadora{<br>    &emsp;&emsp;<br>ICodificadora codificador;<br>&emsp;&emsp;<br>IDisenadora disenador;<br>&emsp;&emsp;<br>public Empleado(ICodificadora codificador, IDisenadora disenador) {&emsp;&emsp;&emsp;&emsp;<br>this.codificador = codificador;&emsp;&emsp;&emsp;&emsp;<br>this.disenador = disenador;&emsp;&emsp;<br>}<br>&emsp;&emsp;<br>@Override&emsp;&emsp;<br>public void codificar() {&emsp;&emsp;&emsp;&emsp;<br>codificador.codificar();&emsp;&emsp;<br>}<br>&emsp;&emsp;<br>@Override&emsp;&emsp;<br>public void disenar() {&emsp;&emsp;&emsp;&emsp;<br>disenador.disenar();&emsp;&emsp;<br>}   <br>}
+            code public class Empleado implements ICodificadora,IDisenadora{
+              br
+              | &emsp;&emsp;ICodificadora codificador;
+              br
+              | &emsp;&emsp;IDisenadora disenador;
+              br
+              | &emsp;&emsp;public Empleado(ICodificadora codificador, IDisenadora disenador) {
+              br
+              | &emsp;&emsp;&emsp;&emsp;this.codificador = codificador;
+              br
+              | &emsp;&emsp;&emsp;&emsp;this.disenador = disenador;
+              br
+              | &emsp;&emsp;}
+              br
+              | &emsp;&emsp;@Override
+              br
+              | &emsp;&emsp;public void codificar() {
+              br
+              | &emsp;&emsp;&emsp;&emsp;codificador.codificar();
+              br
+              | &emsp;&emsp;}
+              br
+              | &emsp;&emsp;@Override
+              br
+              | &emsp;&emsp;public void disenar() {
+              br
+              | &emsp;&emsp;&emsp;&emsp;disenador.disenar();
+              br
+              | &emsp;&emsp;}   
+              br
+              | }
+
         div(titulo="En este caso la clase principal instancia la clase indicando por parámetro las clases concretas a ser utilizadas para la extensión de los métodos que serán reutilizados")
           .code
-            code public class PatronDelegate {<br>&emsp;&emsp;<br>public static void main(String[] args) {&emsp;&emsp;&emsp;&emsp;<br>Empleado objEmpleado = new Empleado(new ClaseCodificadora(),new ClaseDisenadora());&emsp;&emsp;&emsp;&emsp;<br>objEmpleado.codificar();&emsp;&emsp;&emsp;&emsp;<br>objEmpleado.disenar();&emsp;&emsp;<br>}<br>    <br>}
+            code public class PatronDelegate {
+              br
+              | &emsp;&emsp;public static void main(String[] args) {
+              br
+              | &emsp;&emsp;&emsp;&emsp;Empleado objEmpleado = new Empleado(new ClaseCodificadora(),new ClaseDisenadora());
+              br
+              | &emsp;&emsp;&emsp;&emsp;objEmpleado.codificar();
+              br
+              | &emsp;&emsp;&emsp;&emsp;objEmpleado.disenar();
+              br
+              | &emsp;&emsp;}
+              br
+              | }
+
       .row.justify-content-center.mb-5
         .col-12
           img(src='@/assets/curso/t4/f7.jpg' alt='imagen relacionada')
