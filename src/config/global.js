@@ -164,7 +164,7 @@ export default {
     {
       termino: 'UML',
       significado:
-        'Lenguaje Unificado de Modelado. Relaciona un conjunto de diagramas estandarizados para la representación de sistemas de información desde diferentes tipos de vista.',
+        ' Lenguaje Unificado de Modelado. Relaciona un conjunto de diagramas estandarizados para la representación de sistemas de información desde diferentes tipos de vista.',
     },
   ],
   complementario: [
